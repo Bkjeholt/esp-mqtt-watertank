@@ -22,4 +22,10 @@
 #define DESALINATED_WATER_TANK_HEIGHT           14    // Height of the water tank in dm
 #define DESALINATED_WATER_TANK_ALARM_LOW_VOLUME 14    // Height of the water tank in dm
 
+// mqtt topics
+
+#define MQTT_TOPIC_STATUS "ssa174/tank/desal/status"
+#define MQTT_TOPIC_ALARM "ssa174/tank/desal/alarm"
+#define MQTT_TOPIC_DATA "ssa174/tank/desal/volume"
+
 #endif
