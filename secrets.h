@@ -3,13 +3,13 @@
 #ifndef __secrets_h__
 #define __secrets_h__
 
-#define WIFI_SSID "SSA174-IoT"
-#define WIFI_PASSWORD "08Run666T"
+#define WIFI_SSID wifi-ssid
+#define WIFI_PASSWORD wifi-password
 
-#define MQTT_SERVER "broker.mqtt-dashboard.com"
+#define MQTT_SERVER mqtt-broker
 #define MQTT_PORT 1883
-#define MQTT_USER "dev@kjeholt.se"
-#define MQTT_PASSWORD "qT%37aDr4Xt"
+#define MQTT_USER mqtt-user
+#define MQTT_PASSWORD mqtt-paswword
 
 // Used physical pins
 
