@@ -24,8 +24,9 @@
 
 // mqtt topics
 
-#define MQTT_TOPIC_STATUS "ssa174/tank/desal/status"
-#define MQTT_TOPIC_ALARM "ssa174/tank/desal/alarm"
-#define MQTT_TOPIC_DATA "ssa174/tank/desal/volume"
+#define MQTT_TOPIC_STATUS    "ssa174/tank/desal/status"
+#define MQTT_TOPIC_ALARM     "ssa174/tank/desal/alarm"
+#define MQTT_TOPIC_DATA      "ssa174/tank/desal/data"
+#define MQTT_TOPIC_SUBSCRIBE "ssa174/tank/desal/%"
 
 #endif
