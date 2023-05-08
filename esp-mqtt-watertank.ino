@@ -25,10 +25,10 @@ const char* mqtt_server = MQTT_SERVER;
 const char* mqtt_username = MQTT_USER;
 const char* mqtt_password = MQTT_PASSWORD;
 
-const char* mqtt_subscribe_topic = "ssa174/tank/desal/%";
-const char* mqtt_data_topic = "ssa174/tank/desal/volume";
-const char* mqtt_alarm_topic = "ssa174/tank/desal/alarm";
-const char* mqtt_status_topic = "ssa174/tank/desal/status";
+const char* mqtt_subscribe_topic = MQTT_TOPIC_SUBSCRIBE;
+const char* mqtt_data_topic = MQTT_TOPIC_DATA;
+const char* mqtt_alarm_topic = MQTT_TOPIC_ALARM;
+const char* mqtt_status_topic = MQTT_TOPIC_STATUS;
 
 //*************************************************************************************
 //*
